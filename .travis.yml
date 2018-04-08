@@ -25,4 +25,3 @@ before_script:
 
 script: 
   - make -C build
-  - ./build/helloworld
