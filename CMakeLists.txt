@@ -37,4 +37,4 @@ qt5_add_resources(QRCS resources.qrc)
 add_executable(helloworld main.cpp mainwindow.cpp ${UI_HEADERS} ${QRCS})
 
 # Add the Qt5 Widgets for linking
-target_link_libraries(helloworld Qt5::Widgets Qt5::WinMain)
+target_link_libraries(helloworld Qt5::Widgets Qt5::Core)
